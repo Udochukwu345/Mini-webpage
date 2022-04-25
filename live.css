@@ -1,0 +1,36 @@
+table{
+    width:900px;
+    line-height: 2.9rem;
+}
+th{
+text-align: left;
+color: blueviolet;
+font-size: x-large;
+}
+th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    font-style: italic;
+    color: blue;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: yellowgreen;
+}
+table,th,td{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+body {
+    background-color: blueviolet;
+}
+img{
+  max -width 400px;
+  max-height: 350px; 
+  margin-left: 400px;  
+}
+.VOLT{
+    max-width: 300PX;
+}
